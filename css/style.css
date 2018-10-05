@@ -1,0 +1,368 @@
+p, .text-default, body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+p, .text-default{
+    color: #888;
+    
+}
+
+.dropdown-item:hover{
+    background-color: #798dc7;
+    color: #fff;
+}
+
+a.text-primary:hover{
+    color: #798dc7 !important;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+.small, small {
+    font-size: 60%;
+    font-weight: 300;
+    text-transform: none;
+    color: rgb(33, 37, 41);
+}
+
+em{
+    font-weight: 500;
+}
+
+.text-primary {
+    color: #798dc7!important;
+}
+
+.bg-primary{
+    background-color: #798dc7 !important;
+}
+
+.bg-dark{
+    background-color: rgb(33, 37, 41) !important;
+}
+
+.btn-main{
+    background-color: #92a6e0;
+    color: #ffffff;
+}
+
+.btn-main:hover{
+    background-color: #798dc7;
+    color: #ffffff !important;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #798dc7;
+}
+
+.btn-white:hover{
+    background-color: #eeee;
+}
+
+.text-dark{
+    color: rgb(33, 37, 41);
+}
+
+
+.mt-7{
+    margin-top: 7rem;
+}
+
+.mb-7{
+    margin-bottom: 7rem;
+}
+
+.py-7, section.full{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+/*===== END UTILITIES ===============*/
+
+section.full{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.jumbotron {
+  background-color: #3E4E7A;
+   /* background-image: url(../img/vegas-street-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;*/
+    min-height: 600px;
+    position: relative;
+    z-index: 1;
+    
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3e4e7a+1,798dc7+100 */
+background: rgb(62,78,122); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(62,78,122,1) 1%, rgba(121,141,199,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(62,78,122,1) 1%,rgba(121,141,199,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(62,78,122,1) 1%,rgba(121,141,199,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e4e7a', endColorstr='#798dc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.jumbotron .container{
+    z-index: 5;
+    position: relative;
+}
+
+.jumbotron .nav a{
+    color: #fff;
+}
+
+.jumbotron .nav a:hover{
+    color: #eee;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 2.5rem;
+    background-color: #92a6e0;
+    
+}
+
+.starburst {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+    display: none;
+}
+
+.starburst {
+    content: '';
+    left: 50%;
+    margin-left: -300px;
+    position: absolute;
+    top: 60px;
+    width: 600px;
+}
+
+@-moz-keyframes spin {
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    to {transform:rotate(360deg);}
+}
+
+.spin {
+    animation: spin 7000ms linear infinite;
+}
+
+.slant {
+    height: 700px;
+    width: 100%;
+    z-index: 0;
+    background: #f9f9f9;
+    position: absolute;
+    transform: skewY(37deg);
+    margin-top: -50px;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3e4e7a+1,798dc7+100 */
+background: rgb(62,78,122); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(62,78,122,1) 1%, rgba(121,141,199,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(62,78,122,1) 1%,rgba(121,141,199,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(62,78,122,1) 1%,rgba(121,141,199,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e4e7a', endColorstr='#798dc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.slant.b{
+
+    transform: skewY(-37deg);
+
+}
+
+/*===== END JUMBOTRON ===============*/
+
+.newsletter{
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #92a6e0;
+}
+
+section.me{
+    background-color: #eeeeee;
+    opacity: ;
+    min-height: 750px;
+    position: relative;
+    z-index: 3;
+}
+
+section.me img.jacob{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.things-love{
+    line-height: 1.7em;
+}
+
+@media only screen and (max-width: 767px) {
+
+    section.me.full{
+        padding-bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1585px) {
+    img.jacob{
+        width: 500px;
+    }
+}
+
+
+@media only screen and (max-width: 1420px) {
+    img.jacob{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    img.jacob{
+        width: 300px;
+    }
+}
+
+section.resume{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3e4e7a+1,798dc7+100 */
+background: rgb(62,78,122); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(62,78,122,1) 1%, rgba(121,141,199,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(62,78,122,1) 1%,rgba(121,141,199,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(-300deg, rgba(62,78,122,1) 1%,rgba(121,141,199,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e4e7a', endColorstr='#798dc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@media only screen and (max-width: 768px) {
+
+div.creative {
+    margin-top: 5rem !important;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+.creative .bar{
+    float: right;
+}
+
+.creative p{
+    margin-top: 16rem;
+}
+
+}
+
+.bars div.bar{
+        background: #798dc7;
+    transition:  1.4s;
+}
+
+.brain{
+    position: absolute;
+    width: 120px;
+    left: 50%;
+    margin-top: 400px;
+    margin-left: -60px !important;
+}
+
+
+
+/*
+.creative h1{
+    background: url(../img/blue-splatter.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left ;
+    height: 180px
+}
+
+.technical h1{
+    background: url(../img/blue-cogs.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right ;
+    height: 180px
+}
+*/
+
+#thumbs .thumb{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgba(33, 37, 41);
+    height: 300px;
+}
+
+#thumbs .thumb .btn:hover{
+    cursor: pointer;
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all .6s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(300px);
+  opacity: 0;
+}
+
+.float{
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.thumb .overlay {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+    width: 100%;
+    height: 0%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(33, 37, 41, 1);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.4s;
+
+}
+
+.overlay .small, .overlay small {
+    font-size: 80% !important;
+}
