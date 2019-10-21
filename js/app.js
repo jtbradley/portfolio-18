@@ -30,7 +30,7 @@ var thumbs = new Vue({
 
                   nchAnbConsultation: {
                       title: 'NCH - Consultation',
-                      img: 'nch-anb-consultation.png',
+                      img: 'nch-anb-consultation.jpg',
                       type: 2,
                       url: 'https://nchinc.com/free/anb-consultation'
                       
@@ -45,20 +45,20 @@ var thumbs = new Vue({
           
                   epicAffiliate: {
                       title: 'Epic Capital Solutions - Affiliate',
-                      img: 'epic-affiliate.png',
+                      img: 'epic-affiliate.jpg',
                        type: 2,
                        url: 'https://www.epiccapitalsolutions.com/affiliate-lp'
                   },
 
                   nchGuidant: {
                     title: 'NCH - Guidant',
-                    img: 'nch-guidant.png',
+                    img: 'nch-guidant.jpg',
                      type: 2,
                      url: 'https://nchinc.com/more-info/guidant'
                 },
                 closerSchool: {
                     title: 'Closer School',
-                    img: 'closer-school.png',
+                    img: 'closer-school.jpg',
                      type: 0,
                      url: 'https://www.closerschool.com'
                 },
@@ -72,56 +72,56 @@ variousAds: {
 */
                   sellersPlaybook: {
                       title: 'Sellers Playbook',
-                      img: 'sellers-playbook.png',
+                      img: 'sellers-playbook.jpg',
                       type: 2,
                       url: 'https://nchinc.com/sellers-playbook'
                   },
 
                   nchRaf: {
                     title: 'NCH - Refer a Friend',
-                    img: 'nch-raf.png',
+                    img: 'nch-raf.jpg',
                      type: 2,
                      url: 'https://nchinc.com/refer-a-friend'
                 },
           
                   epicRestaurants: {
                       title: 'Epic Capital Solutions - Restaurants',
-                      img: 'epic-restaurants.png',
+                      img: 'epic-restaurants.jpg',
                       type: 2,
                       url: 'https://www.epiccapitalsolutions.com/apply/restaurant/'
                   },
 
                   nchLoik: {
                     title: 'NCH - Loik Affiliate',
-                    img: 'nch-loik.png',
+                    img: 'nch-loik.jpg',
                     type: 2,
                     url: 'http://www.nationalnch.com/start-your-business/'
                 },
           
                   nchTurnkeyRei: {
                       title: 'NCH - Turnkey Real Estate Investment',
-                      img: 'NCH-turnkey-rei.png',
+                      img: 'NCH-turnkey-rei.jpg',
                       type: 2,
                       url: 'https://nchinc.com/free/6-things-rei'
                   },
 
                   sellersPlaybookStart: {
                     title: 'Sellers Playbook - Start Store',
-                    img: 'anb-sp.png',
+                    img: 'anb-sp.jpg',
                     type: 2,
                     url: 'https://nchinc.com/free/6-things-rei'
                 },
-
+/*
                 nchCad: {
                     title: 'NCH - CAD Division',
-                    img: 'NCH-CAD.png',
+                    img: 'NCH-CAD.jpg',
                     type: 2,
                     url: 'https://nchinc.com/cad-division/vanlandingham.html'
                 },
-
+*/
                   nchAnb2: {
                       title: 'NCH - 2016 Formation',
-                      img: 'anb-drip-2.png',
+                      img: 'anb-drip-2.jpg',
                       type: 3,
                       url: 'old-emails/eoy-4.html'
                   },
@@ -135,14 +135,14 @@ variousAds: {
           
                   nchAnbRei: {
                       title: 'NCH - Real Estate Investing',
-                      img: 'anb-5-img.png',
+                      img: 'anb-5-img.jpg',
                        type: 3,
                       url: 'old-emails/ANB-re.html'
                   },
                   
                   nchNvEdgeEmail: {
                       title: 'NCH - Nevada Edge Email',
-                      img: 'nch-nv-edge-email.png',
+                      img: 'nch-nv-edge-email.jpg',
                        type: 3,
                       url: 'old-emails/Cort-Christie-NV-Edge.html'
                   },
@@ -156,7 +156,7 @@ variousAds: {
           
                   anbDripOne: {
                       title: 'NCH - Incorporate in Nevada',
-                      img: 'nv-google-drip.png',
+                      img: 'nv-google-drip.jpg',
                        type: 3,
                       url: 'old-emails/NV-Google-Drip-1.html'
                   },
@@ -170,7 +170,7 @@ variousAds: {
 */
                   lotrTrivia: {
                     title: 'Lord of the Rings Trivia',
-                    img: 'lotr-quiz.png',
+                    img: 'lotr-quiz.jpg',
                     type: 1,
                     url: 'http://nchinc.net/jb-dev/lotr-quiz/'
                     
@@ -184,9 +184,10 @@ variousAds: {
                   },
 
                   laraChat: {
-                    title: 'Watch Site - GrahQL + Headless CMS (coming soon)',
-                    img: '',
+                    title: 'Everbrand Agency (coming soon)',
+                    img: 'evb-screen.jpg',
                     type: 1,
+                    url: 'https://everbrand.co'
                     
                 }
               },
