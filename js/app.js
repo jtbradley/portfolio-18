@@ -14,20 +14,7 @@ var thumbs = new Vue({
                       img: 'epic-rei.jpg',
                       type: 2,
                       url: 'https://www.epiccapitalsolutions.com/rei-lp'
-                  },/*
-                  123: {
-                      title: '123 Bizplan',
-                      img: '123-bizplan.jpg',
-                      type: 2,
-                      url: 'http://nchinc.net/jb-dev/123biz-lp/'
-                  },*/
-                  epicGetQuote2: {
-                      title: 'Epic Capital Solutions - Get Quote',
-                      img: 'epic-get-quote-2.jpg',
-                      type: 2,
-                      url: 'https://www.epiccapitalsolutions.com/get-quote-2'
                   },
-
                   nchAnbConsultation: {
                       title: 'NCH - Consultation',
                       img: 'nch-anb-consultation.jpg',
@@ -35,90 +22,20 @@ var thumbs = new Vue({
                       url: 'https://nchinc.com/free/anb-consultation'
                       
                   },
-                
                    nchNvEdge: {
                       title: 'NCH - Nevada Edge',
                       img: 'nv-edge-state-comparison.jpg',
                        type: 2,
                        url: 'https://nchinc.com/state-comparison/delaware'
                   },
-          
-                  epicAffiliate: {
-                      title: 'Epic Capital Solutions - Affiliate',
-                      img: 'epic-affiliate.jpg',
-                       type: 2,
-                       url: 'https://www.epiccapitalsolutions.com/affiliate-lp'
-                  },
 
-                  nchGuidant: {
-                    title: 'NCH - Guidant',
-                    img: 'nch-guidant.jpg',
-                     type: 2,
-                     url: 'https://nchinc.com/more-info/guidant'
-                },
                 closerSchool: {
                     title: 'Closer School',
                     img: 'closer-school.jpg',
                      type: 0,
                      url: 'https://www.closerschool.com'
                 },
-         /*
-variousAds: {
-    title: 'Various Ads',
-    img: 'various-ads.png',
-    type: 2,
-    url: 'http://nchinc.net/jb-dev/various-ads.html'
-},
-*/
-                  sellersPlaybook: {
-                      title: 'Sellers Playbook',
-                      img: 'sellers-playbook.jpg',
-                      type: 2,
-                      url: 'https://nchinc.com/sellers-playbook'
-                  },
 
-                  nchRaf: {
-                    title: 'NCH - Refer a Friend',
-                    img: 'nch-raf.jpg',
-                     type: 2,
-                     url: 'https://nchinc.com/refer-a-friend'
-                },
-          
-                  epicRestaurants: {
-                      title: 'Epic Capital Solutions - Restaurants',
-                      img: 'epic-restaurants.jpg',
-                      type: 2,
-                      url: 'https://www.epiccapitalsolutions.com/apply/restaurant/'
-                  },
-
-                  nchLoik: {
-                    title: 'NCH - Loik Affiliate',
-                    img: 'nch-loik.jpg',
-                    type: 2,
-                    url: 'http://www.nationalnch.com/start-your-business/'
-                },
-          
-                  nchTurnkeyRei: {
-                      title: 'NCH - Turnkey Real Estate Investment',
-                      img: 'NCH-turnkey-rei.jpg',
-                      type: 2,
-                      url: 'https://nchinc.com/free/6-things-rei'
-                  },
-
-                  sellersPlaybookStart: {
-                    title: 'Sellers Playbook - Start Store',
-                    img: 'anb-sp.jpg',
-                    type: 2,
-                    url: 'https://nchinc.com/free/6-things-rei'
-                },
-/*
-                nchCad: {
-                    title: 'NCH - CAD Division',
-                    img: 'NCH-CAD.jpg',
-                    type: 2,
-                    url: 'https://nchinc.com/cad-division/vanlandingham.html'
-                },
-*/
                   nchAnb2: {
                       title: 'NCH - 2016 Formation',
                       img: 'anb-drip-2.jpg',
@@ -131,13 +48,6 @@ variousAds: {
                       img: 'IA-behalf-email.jpg',
                       type: 3,
                       url: 'old-emails/ia-behalf.html'
-                  },
-          
-                  nchAnbRei: {
-                      title: 'NCH - Real Estate Investing',
-                      img: 'anb-5-img.jpg',
-                       type: 3,
-                      url: 'old-emails/ANB-re.html'
                   },
                   
                   nchNvEdgeEmail: {
@@ -153,21 +63,7 @@ variousAds: {
                       type: 0,
                       url: 'http://www.corporateservicecenter.com/'
                   },
-          
-                  anbDripOne: {
-                      title: 'NCH - Incorporate in Nevada',
-                      img: 'nv-google-drip.jpg',
-                       type: 3,
-                      url: 'old-emails/NV-Google-Drip-1.html'
-                  },
-         /*
-                  hailBoutique: {
-                      title: 'Hail Boutique',
-                      img: 'hail-boutique.jpg',
-                      type: 0,
-                      url: 'https://hailboutique.com/'
-                  },
-*/
+/*
                   lotrTrivia: {
                     title: 'Lord of the Rings Trivia',
                     img: 'lotr-quiz.jpg',
@@ -175,7 +71,7 @@ variousAds: {
                     url: 'http://nchinc.net/jb-dev/lotr-quiz/'
                     
                 },
-                  
+               */   
                   harrisLaw: {
                       title: 'Harris Law',
                       img: 'harris-law2.jpg',
@@ -191,11 +87,6 @@ variousAds: {
                     
                 }
               },
-
-  
-              greeting1: 'Hello b!',
-          
-              greeting2: 'hello you',
   
               selectedType: 'type'
                  
